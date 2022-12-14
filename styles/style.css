@@ -99,6 +99,62 @@ body {
   transition: 0.5s ease-out;
 }
 
+/*tablets size*/
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .card {
+    display: flex;
+    width: 80%;
+    border-radius: 10px;
+  }
+  .card-image {
+    content: url(../images/image-product-desktop.jpg);
+    border-radius: 10px 0 0 10px;
+    width: 50%;
+  }
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3em;
+  }
+  .card-title {
+    font-size: 36px;
+  }
+  .dicount {
+    font-size: 36px;
+  }
+}
+/*Desktop size*/
+@media screen and (min-width: 1024px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+  }
+  .card {
+    display: flex;
+    width: 40%;
+    border-radius: 10px;
+  }
+  .card-image {
+    content: url(../images/image-product-desktop.jpg);
+    border-radius: 10px 0 0 10px;
+    width: 50%;
+  }
+  .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .card-title {
+    font-size: 40px;
+  }
+  .dicount {
+    font-size: 40px;
+  }
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
